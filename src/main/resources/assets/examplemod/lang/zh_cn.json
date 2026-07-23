@@ -1,0 +1,4 @@
+{
+  "mods.zinc_smelting_fix.name": "粗锌块烧炼修复",
+  "mods.zinc_smelting_fix.description": "[测试模组]\n新增原版忘记的功能：将粗锌块烧炼为锌块，耗时90秒，经验6.3"
+}
