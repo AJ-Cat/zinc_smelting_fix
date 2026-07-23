@@ -1,25 +1,38 @@
+# 锌块烧炼修复
 
-Installation information
-=======
+---
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+## 简介
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+本模组为 **Create（机械动力）** 模组的锌锭相关物品补全了一项原版 Minecraft 中缺失的烧炼功能：
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+将 **粗锌块（Raw Zinc Block）** 烧炼为 **锌块（Zinc Block）**。
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+---
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+## 功能详情
+
+| 项目 | 详情 |
+|------|------|
+| **原料** | 粗锌块（`create:raw_zinc_block`） |
+| **产物** | 锌块（`create:zinc_block`） |
+| **烧炼时间** | 90 秒（1800 ticks） |
+| **获得经验** | 6.3 级 |
+| **适用炉灶** | 普通熔炉、高炉 |
+
+> 在高炉中烧制时，速度会减半（实际 45 秒），经验值不变。
+
+---
+
+## 兼容性
+
+- **Minecraft 版本**：1.21.1
+- **模组加载器**：NeoForge 21.0.167+
+- **前置模组**：[Create（机械动力）](https://www.mcmod.cn/class/2021.html)（必须）
+
+---
+
+## 开源许可
+
+本模组保留所有权利（All Rights Reserved）。  
+未经作者授权，禁止转载、修改或用于商业用途。
