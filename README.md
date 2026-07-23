@@ -36,3 +36,10 @@
 
 本模组保留所有权利（All Rights Reserved）。  
 未经作者授权，禁止转载、修改或用于商业用途。
+
+---
+
+## 其他网页
+
+- [Modrinth](https://modrinth.com/mod/zinc_smelting_fix)
+- [MCMod]()
